@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+
+/* Marks */
+.point {
+    opacity: 0.8;
+}
+.point:hover {
+    stroke: #333;
+}
+.bar {
+    shape-rendering: crispEdges;
+}
+.bar:hover {
+    stroke: #777;
+}
+.bar.active {
+    stroke: #000;
+    stroke-width: 2px;
+}
